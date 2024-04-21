@@ -3,7 +3,7 @@
 Open Terminal
 - docker build -t jda-db .
 
-* config terminal
+Config terminal
 - docker run --name jda-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d jda-db > to run container
 - open terminal in docker desktop or run docker exec -it jda-db bash
 
